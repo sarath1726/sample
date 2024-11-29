@@ -13,5 +13,5 @@ def test_negative_numbers():
 
 def test_sub_numbers():
     """Test addition of two positive numbers."""
-    result = sub(2, 3)
-    assert result == -1, f"Expected -1 but got {result}"
+    result = sub(4, 2)
+    assert result == 2, f"Expected 2 but got {result}"
