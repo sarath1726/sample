@@ -29,4 +29,4 @@ jobs:
     # Run your test script
     - name: Run tests
       run: |
-        pytest tests/
+        pytest -v -s tests/
